@@ -1,0 +1,37 @@
+en: 
+  welcome: "Welcome to Calculator! Enter your name:"
+  greeting: 'Hi %{name}'
+  valid_name: "Make sure to enter a valid name."
+  number_1: "What's the first number?"
+  valid_ number: "Hmm... that doesn't look like a valid number"
+  number_2: "What's the second number?"
+  # https://yaml-multiline.info
+  operator: |
+    What operation would you like to perform? 
+      1) add 
+      2) subtract
+      3) multiply 
+      4) divide
+  valid_operator: "Must choose 1, 2, 3, or 4"
+  result: 'The result is %{result}'
+  calculate_again : "Do you want to perform another calculation? (Y to calculate again)"
+  thank_you: "Thank you for using Calculator! Good bye!"
+
+es: 
+  welcome: "¡Bienvenido a Calculadora! Introduzca su nombre:"
+  greeting: '¡Hola %{name}!'
+  valid_name: "Asegúrese de ingresar un nombre válido."
+  number_1: "¿Cuál es el primer número?"
+  valid_ number: "Hmm... eso no parece un número válido"
+  number_2: "¿Cuál es el segundo número?"
+  # https://yaml-multiline.info
+  operator: |
+    ¿Qué operación le gustaría realizar?
+       1) agregar
+       2) restar
+       3) multiplicar
+       4) dividir
+  valid_operator: "Debe elegir 1, 2, 3 o 4"
+  result: 'El resultado es %{result}'
+  calculate_again : "¿Desea realizar otro cálculo? (Y para calcular de nuevo)"
+  thank_you: "¡Gracias por usar Calculadora! ¡Adiós!"
