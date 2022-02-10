@@ -5,10 +5,10 @@
 VALID_CHOICES = ['rock', 'paper', 'scissors', 'lizard', 'Spock']
 
 # CHOICES = {
-#   'rock' =>     { shorthand: 'r', beats: ['scissors', 'lizard'] }, 
-#   'paper' =>    { shorthand: 'p', beats: ['rock', 'Spock'] }, 
-#   'scissors' => { shorthand: 's', beats: ['paper', 'lizard'] }, 
-#   'lizard' =>   { shorthand: 'l', beats: ['paper', 'Spock'] }, 
+#   'rock' =>     { shorthand: 'r', beats: ['scissors', 'lizard'] },
+#   'paper' =>    { shorthand: 'p', beats: ['rock', 'Spock'] },
+#   'scissors' => { shorthand: 's', beats: ['paper', 'lizard'] },
+#   'lizard' =>   { shorthand: 'l', beats: ['paper', 'Spock'] },
 #   'Spock' =>    { shorthand: 'S', beats: ['rock', 'scissors'] }
 # }
 
@@ -72,7 +72,7 @@ loop do
     prompt("Choose one: #{VALID_CHOICES.join(', ')}")
     choice = Kernel.gets().chomp()
 
-    if choice.length == 1 && SHORTHAND.has_key?(choice)
+    if choice.length == 1 && SHORTHAND.key?(choice)
       choice = SHORTHAND[choice]
     end
 
